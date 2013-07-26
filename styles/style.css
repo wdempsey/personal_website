@@ -1,0 +1,222 @@
+
+.mapphoto
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 30%;
+    width:30%;
+    margin-bottom: 0px;
+}
+body
+{
+    background-color:#ffffff;
+    font-family:'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 200;
+}
+/*Header (i.e. "Adam Fishman")*/
+h1
+{
+    color:orange;
+    text-align:center;
+    font-size:45px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+/*Sub-hearder (i.e. "Aspring Data Scientist")*/
+h2
+{
+    font-size:20px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+a
+{
+    font-size: 18px;
+}
+.currentwork, h3
+{
+  font-size:18px;
+  font-weight: 200;
+  float: clear;
+  text-align: center;
+  display: block;
+  margin-top: 0px;
+}
+.currentwork
+{
+  color: #3498db;
+}
+.currentwork:hover
+{
+    color: #5dade2;
+    outline: none;
+    text-decoration: none;
+    transition-property: color;
+    -webkit-transition-property: color;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn {
+  border: none;
+  background: #bdc3c7;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition-property: color;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-backface-visibility: hidden;
+  width: 110px;
+}
+.btn, .btn-large, .btn-block, .btn-info
+{
+    clear:both;
+    margin-left: auto;
+    margin-right:auto;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12px;
+    background-color: #3498db;
+}
+
+.btn:hover
+{
+    background-color: #cacfd2;
+    color: #ffffff;
+    outline: none;
+    -webkit-transition-property: color;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-backface-visibility: hidden;
+}
+.btn.btn-info:hover, .btn.btn-info:focus
+{
+    background-color: #5dade2;
+}
+
+.social
+{
+    list-style:none;
+    display: block;
+    margin-top: -10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+}
+.social li a
+{
+    display: block;
+    /*height: 25px;
+    width: auto;*/
+    position: relative;
+
+}
+.social li img
+{
+  max-width:35px;
+}
+
+
+/*CSS3 Stuff*/
+
+.social:hover li {opacity: .2;}
+.social li 
+{
+    transition-property: opacity;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    display: table-cell;
+}
+.social li:hover 
+{
+    opacity:1;
+}
+@media only screen and (max-width: 800px) {
+ 
+  .mapphoto
+{
+    margin-top: 7%;
+    height: 65%;
+    width:65%;
+    margin-bottom: 0px;
+}
+
+h2
+{
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+.social li img
+{
+  max-width:50px;
+}
+
+.btn, .btn-large, .btn-block, .btn-info
+{
+    clear:both;
+    margin-left: auto;
+    margin-right:auto;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 28px;
+    font-size: 20px;
+    background-color: #3498db;
+}
+
+.currentwork, h3
+{
+    font-size: 20px;
+}
+/*
+.currentwork, h3
+{
+  font-size:20px;
+  font-weight: 200;
+  float: clear;
+  text-align: center;
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}*/
+}
+
+.section_title, h3
+{
+    clear: both;
+    color: #3498db;
+    font-size:22px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+h5
+{
+  clear: both;
+  color: #3498db;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0px;
+}
