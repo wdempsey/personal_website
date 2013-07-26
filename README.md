@@ -1,4 +1,4 @@
-personal_website
+Personal Website
 ================
 
-All files that go into my personal website.
+Basic framework is supported by Twitter's Bootstrap (src :<a href = " http://twitter.github.io/bootstrap/">  http://twitter.github.io/bootstrap/ </a>)
